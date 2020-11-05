@@ -1,4 +1,4 @@
-//__lua__
+-- __lua__
 
 dangle = 1/12
 dpow = 20
@@ -8,9 +8,15 @@ xmax=120
 
 function _init()
  t=0
- plspr={4,6,8,10,12}
+--  plspr={64,66,68,70,72}
+plspr={96,98,100,102,104}
  aim={angle=0,pow=50}
- pl={x=20,y=20,sw=false,spridx=1} 
+ pl={x=20,y=20,sw=false,spridx=1}
+
+ xs={1, 0.9, 0.8, 0.75, 0.6, 0.5} 
+ for x in all(xs) do 
+	printh(sin(x))
+ end
 end
 
 function _update()
