@@ -1,3 +1,7 @@
+pico-8 cartridge // http://www.pico-8.com
+version 29
+__lua__
+
 ball = {
 	x0=5,
 	y0=5,

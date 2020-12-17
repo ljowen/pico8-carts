@@ -1,4 +1,6 @@
--- __lua__
+pico-8 cartridge // http://www.pico-8.com
+version 29
+__lua__
 
 dangle = 1/12
 dpow = 20

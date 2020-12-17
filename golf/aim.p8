@@ -1,3 +1,6 @@
+pico-8 cartridge // http://www.pico-8.com
+version 29
+__lua__
 function draw_aim() 
  x0 = pl.x+8
  y0 = pl.y+15
